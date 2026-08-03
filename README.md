@@ -39,7 +39,7 @@ The project is still in active development, but the core direction is already de
 ## 📊 Progress
 
 <div align="center">
-  <img alt="EVA-60 Progress" src="assets/progress.svg" width="600"/>
+  <img alt="EVA-60 Progress" src="assets/progress25.svg" width="600"/>
 </div>
 
 Current phase: research, architecture, and documentation are well underway. Hardware and firmware work remain the next major milestones.
