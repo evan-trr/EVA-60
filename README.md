@@ -39,7 +39,7 @@ The repository is still in active development, but the direction is already defi
 ## Progress
 
 <div align="center">
-  <img alt="EVA-60 progress" src="assets/progress25.svg" width="600"/>
+  <img alt="EVA-60 progress" src="assets/progress-range/" width="600"/>
 </div>
 
 The documentation backbone is in place. The remaining work is centered on hardware selection, schematic design, PCB design, case design, and prototype assembly.
