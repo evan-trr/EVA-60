@@ -1,20 +1,20 @@
 <div align="center">
-  <img alt="EVA-60 Banner" src="assets/banner.svg" width="500"/>
+  <img alt="EVA-60 banner" src="assets/banner.svg" width="500"/>
 </div>
 
 <h1 align="center">EVA-60</h1>
 
 <p align="center">
-  A custom Evangelion-inspired HHKB mechanical keyboard designed from scratch, with a custom PCB, QMK-ready firmware direction, and fully documented development.
+  An open hardware keyboard project inspired by Evangelion, built around a compact HHKB-style layout, a custom PCB, and documentation-first development.
   <br/>
-  <em>Built for durability, customization, and a strong visual identity.</em>
+  <em>Designed for clarity, repairability, and long-term iteration.</em>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/evan-trr/EVA-60" alt="License"/>
-  <img src="https://img.shields.io/github/stars/evan-trr/EVA-60" alt="Stars"/>
-  <img src="https://img.shields.io/github/issues/evan-trr/EVA-60" alt="Issues"/>
-  <img src="https://img.shields.io/badge/status-in%20development-orange" alt="Status"/>
+  <img src="https://img.shields.io/badge/status-early%20stage-orange" alt="Status"/>
+  <img src="https://img.shields.io/badge/scope-open%20hardware-blue" alt="Scope"/>
+  <img src="https://img.shields.io/badge/documentation-active-lightgrey" alt="Documentation"/>
 </p>
 
 <p align="center">
@@ -28,35 +28,35 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
-EVA-60 is an open hardware and open documentation project aimed at creating a custom HHKB-inspired keyboard from the ground up. The goal is to combine a strong Evangelion-inspired aesthetic with practical mechanical keyboard features such as a custom PCB, a compact layout, and a future-ready firmware path.
+EVA-60 is an open hardware and open documentation project aimed at building a custom keyboard from the ground up. The project combines a compact HHKB-inspired layout with an Evangelion-inspired visual identity and a documentation structure that covers the full path from concept to manufacturing.
 
-The project is still in active development, but the core direction is already defined and documented. The documentation is now organized around distinct topics such as overview, goals, hardware, firmware, assembly, and manufacturing.
+The repository is still in active development, but the direction is already defined: design the keyboard carefully, document the decisions clearly, and keep the project open for iteration.
 
 ---
 
-## 📊 Progress
+## Progress
 
 <div align="center">
-  <img alt="EVA-60 Progress" src="assets/progress25.svg" width="600"/>
+  <img alt="EVA-60 progress" src="assets/progress25.svg" width="600"/>
 </div>
 
-Current phase: research, architecture, and documentation are well underway. Hardware and firmware work remain the next major milestones.
+The documentation backbone is in place. The remaining work is centered on hardware selection, schematic design, PCB design, case design, and prototype assembly.
 
 ---
 
-## ✨ Features
+## Features
 
-- **HHKB-inspired layout** — Compact layout direction with a standard space bar.
-- **Custom PCB** — Designed from scratch with a clear hardware development path.
-- **Structured documentation** — The project is now organized around dedicated docs for overview, goals, hardware, firmware, assembly, and manufacturing.
-- **Firmware-ready architecture** — The project is structured with QMK compatibility in mind.
-- **Custom visual design** — Evangelion-inspired identity with a strong color palette and typography direction.
+- **HHKB-inspired layout** - compact format with a standard space bar.
+- **Custom PCB** - designed from scratch with a clear development path.
+- **Documentation-first workflow** - overview, goals, hardware, firmware, assembly, manufacturing, and roadmap are documented separately.
+- **Firmware-ready direction** - the project is structured with QMK compatibility in mind.
+- **Strong visual identity** - Evangelion-inspired palette and typography direction.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Define the project goals.
 - [x] Create the GitHub repository.
@@ -69,14 +69,31 @@ Current phase: research, architecture, and documentation are well underway. Hard
 - [ ] Design the case.
 - [ ] Produce and assemble the prototype.
 
+### Near-term milestones
+
+1. Hardware decisions
+   - pick the MCU;
+   - confirm the key components;
+   - lock the electrical direction.
+
+2. Design implementation
+   - finalize schematic;
+   - route the PCB;
+   - validate case constraints.
+
+3. Prototype phase
+   - build the first boards;
+   - test firmware integration;
+   - iterate on the enclosure and layout.
+
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 
-- An electronic design environment (KiCad recommended)
-- A version control tool such as Git
+- KiCad or another electronic design environment
+- Git
 - Basic understanding of PCB and firmware design
 
 ### Steps
@@ -88,13 +105,13 @@ cd EVA-60
 
 ---
 
-## 🚀 Usage
+## Usage
 
-The project is primarily intended to serve as a base for open hardware documentation and development. The design files and technical notes are available in the docs folder.
+The repository is intended as a working base for open hardware development and documentation. The design notes and technical references live in the docs folder.
 
 ---
 
-## 📁 Project structure
+## Project structure
 
 ```text
 EVA-60/
@@ -111,48 +128,28 @@ EVA-60/
 │   ├── 06-Manufacturing.md
 │   └── 07-Roadmap.md
 ├── LICENSE
-├── README.md
+└── README.md
 ```
 
 ---
 
-## 🧠 Design philosophy
+## Design philosophy
 
 1. Simplicity.
 2. Reliability.
 3. Ease of repair.
-4. Open-source development.
-5. Eva-inspired aesthetics.
+4. Open development.
+5. Clear visual identity.
 
 ---
 
-## 🎨 Visual identity
-
-### Primary colors
-
-| Color       | Hex       |
-| ----------- | --------- |
-| EVA violet  | `#6D28D9` |
-| Deep violet | `#3B0764` |
-| Black       | `#09090B` |
-| Green       | `#39FF14` |
-
-### Fonts
-
-- Orbitron
-- Michroma
-- Inter
-- Roboto
-
----
-
-## 📚 Documentation
+## Documentation
 
 The full project documentation is available in the [docs](docs) folder.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - QMK
 - KiCad
@@ -162,12 +159,6 @@ The full project documentation is available in the [docs](docs) folder.
 
 ---
 
-## 📄 License
+## License
 
-This project is intended to be distributed under an open hardware-friendly license. See [LICENSE](LICENSE) for more details.
-
----
-
-<p align="center">
-  Made by <strong>Akalice</strong>
-</p>
+This project is intended to be distributed under an open hardware-friendly license. See [LICENSE](LICENSE) for details.

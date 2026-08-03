@@ -1,18 +1,24 @@
 # Specifications
 
-This file is optional and can be removed later if the project does not need a separate formal specification document.
+This document captures the early constraints and design expectations for EVA-60.
 
 ## Current purpose
 
-The specifications document is intended to capture the initial product constraints and design expectations if the project grows into a more formal hardware development workflow.
+The specifications page acts as a lightweight reference for decisions that should remain visible while the project is still moving toward a final hardware design.
 
-## Possible content
+## Topics to capture
 
-- Layout and form factor expectations
-- Target features and constraints
-- Preferred hardware and firmware direction
-- Design assumptions to revisit later
+- Layout and form factor expectations.
+- Target features and constraints.
+- Preferred hardware and firmware direction.
+- Design assumptions that should be revisited later.
 
 ## Status
 
-This file is currently lightweight and may be expanded later or merged into the hardware and firmware documentation if that proves clearer.
+This file intentionally stays lightweight. It can grow into a more formal specification later if the project needs it.
+
+## Related docs
+
+- [Goals](01-Goals.md)
+- [Hardware](03-Hardware.md)
+- [Firmware](04-Firmware.md)
